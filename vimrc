@@ -1,4 +1,3 @@
-mani
 " ~/.vimrc
 "
 "
