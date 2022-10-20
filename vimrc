@@ -24,6 +24,7 @@
 " Start/Middle/End of Screen    	H M L
 " Jump to mathing bracket       	%
 " Horizontal Split              	Ctrl+w+v
+" View ctags                      :tag .<CTRL+D>
 
 " KeyMap
 nnoremap <C-b> :NERDTreeToggle<CR>
