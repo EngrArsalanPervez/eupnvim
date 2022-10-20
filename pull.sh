@@ -6,6 +6,7 @@
 git reset --hard HEAD
 git pull https://github.com/EngrUsmanPervez/eupvim.git
 chmod 777 pull.sh
+# ./pull.sh
 cp -R .ctags.d ~/
 cp vimrc ~/.vimrc
 
