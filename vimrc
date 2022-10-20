@@ -1,7 +1,7 @@
 " ~/.vimrc
 "
 "
-" Find and Replace              	:%s/foo/bar/g"
+" Find and Replace                :%s/foo/bar/g"
 " Find and Replace              	:6,10s/foo/bar/"
 " Go to Line                    	:40
 " Find Next/Prev Occurance      	# *
