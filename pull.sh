@@ -12,8 +12,7 @@ chmod 777 pull.sh
 # :source ~/.vimrc
 # PlugInstall
 # PlugUpdate
-
-
+###########################################################
 cp -R .ctags.d ~/
 cp vimrc ~/.vimrc
 
