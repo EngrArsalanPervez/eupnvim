@@ -2,28 +2,28 @@
 "
 "
 " Find and Replace                :%s/foo/bar/g"
-" Find and Replace              	:6,10s/foo/bar/"
-" Go to Line                    	:40
-" Find Next/Prev Occurance      	# *
-" Find Next/Prev Occurance      	n N
-" Forward/Backword GoTo Function	ctrl+o ctrl+i
-" Insert/Append Insert-Start/End	i a I A
-" Insert Mode Down/up line      	o O
-" Correct Word/Tokken           	cw cW
-" Correct Line                  	cc
-" Delete/Cut Line               	dd
-" Delete 5 Lines                	:5dd
-" Copy/Yank Line                	yy
-" Copy/Yank Word/Tokken         	yw yW
-" Paste Before/After            	p P
-" Undo Redo                     	u ctrl+r
-" Correct Inner First  (        	ci(
-" Correct Inner Second (        	2ci(
-" Terminal Command              	:! COMMAND
-" NERDTree Open file in New Tab 	T t
-" Start/Middle/End of Screen    	H M L
-" Jump to mathing bracket       	%
-" Horizontal Split              	Ctrl+w+v
+" Find and Replace                :6,10s/foo/bar/"
+" Go to Line                      :40
+" Find Next/Prev Occurance        # *
+" Find Next/Prev Occurance        n N
+" Forward/Backword GoTo Function  ctrl+o ctrl+i
+" Insert/Append Insert-Start/End  i a I A
+" Insert Mode Down/up line        o O
+" Correct Word/Tokken             cw cW
+" Correct Line                    cc
+" Delete/Cut Line                 dd
+" Delete 5 Lines                  :5dd
+" Copy/Yank Line                  yy
+" Copy/Yank Word/Tokken           yw yW
+" Paste Before/After              p P
+" Undo Redo                       u ctrl+r
+" Correct Inner First  (          ci(
+" Correct Inner Second (          2ci(
+" Terminal Command                :! COMMAND
+" NERDTree Open file in New Tab    T t
+" Start/Middle/End of Screen      H M L
+" Jump to mathing bracket         %
+" Horizontal Split                Ctrl+w+v
 " View ctags                      :tag .<CTRL+D>
 
 " KeyMap
