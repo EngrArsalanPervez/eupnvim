@@ -1,6 +1,7 @@
 #git config credential.helper store
 #git config --global user.email "usman.pervez@seecs.edu.pk"
 #git config --global user.name "EngrUsmanPervez"
+#git add .
 #git branch -M main
 #git push -u origin main
 #git clone https://github.com/EngrUsmanPervez/eupvim.git
