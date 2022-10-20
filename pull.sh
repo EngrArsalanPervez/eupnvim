@@ -7,6 +7,7 @@
 #git clone https://github.com/EngrUsmanPervez/eupvim.git
 #EngrUsmanPervez
 #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
+git reset --hard HEAD
 git pull https://github.com/EngrUsmanPervez/eupvim.git
 cp -R .ctags.d ~/
 cp vimrc ~/.vimrc
