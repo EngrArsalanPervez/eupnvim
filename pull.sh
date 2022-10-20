@@ -9,5 +9,6 @@
 #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
 git reset --hard HEAD
 git pull https://github.com/EngrUsmanPervez/eupvim.git
+chmod 777 pull.sh
 cp -R .ctags.d ~/
 cp vimrc ~/.vimrc
