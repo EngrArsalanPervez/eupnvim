@@ -25,6 +25,9 @@
 " Jump to mathing bracket         %
 " Horizontal Split                Ctrl+w+v
 " View ctags                      :tag .<CTRL+D>
+" Delete to end of line           :d$
+" Delete to start of line         :d0
+
 
 " KeyMap
 nnoremap <C-b> :NERDTreeToggle<CR>
