@@ -6,6 +6,7 @@
 " Go to Line                      :40
 " Find Next/Prev Occurance        # *
 " Find Next/Prev Occurance        n N
+" Go to Defination                ctrl+]
 " Forward/Backword GoTo Function  ctrl+o ctrl+i
 " Insert/Append Insert-Start/End  i a I A
 " Insert Mode Down/up line        o O
