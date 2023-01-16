@@ -78,10 +78,12 @@ set number
 set splitright
 set list lcs=tab:\|\ 
 set iskeyword+=.
+set clipboard=unnamedplus
 syntax enable
 colorscheme monokai
 
 " Pre Requisite
+" apt install vim-gtk
 " apt-get install ripgrep curl
 " apt install universal-ctags
 " apt install build-essential cmake vim-nox python3-dev
