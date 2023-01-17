@@ -29,6 +29,7 @@
 " Delete to end of line           :d$
 " Delete to start of line         :d0
 " Auto Indent                     ==
+" Indent Forward/Backword         SHIFT+> SHIFT+<
 
 
 " KeyMap
