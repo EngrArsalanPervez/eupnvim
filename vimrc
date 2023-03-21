@@ -95,6 +95,7 @@ colorscheme monokai
 " sudo apt install vim-youcompleteme
 " vim-addon-manager install youcompleteme
 " autocmd FileType apache setlocal commentstring=#\ %s
+" pip3 install pynvim
 "
 " Install NerdFont
 "   wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hermit.zip
