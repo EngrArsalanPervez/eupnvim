@@ -1,4 +1,4 @@
-" ~/.vimrc
+" ~/nvim/init.vim
 "
 "
 " Find and Replace                :%s/foo/bar/g"
