@@ -1,4 +1,4 @@
-# cd ~/
+# cd ~/config/
 # git clone https://github.com/EngrUsmanPervez/eupvim.git
 # EngrUsmanPervez
 # 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
@@ -14,7 +14,7 @@ chmod 777 pull.sh
 # PlugUpdate
 ###########################################################
 cp -R .ctags.d ~/
-cp vimrc ~/.vimrc
+cp init.vim ~/config/nvim/init.vim
 
 
 #git config --global user.email "usman.pervez@seecs.edu.pk"
