@@ -88,6 +88,7 @@ colorscheme monokai
 
 " Pre Requisite
 " apt install vim-gtk
+" apt install xclip
 " apt-get install ripgrep curl
 " apt install universal-ctags
 " apt install build-essential cmake vim-nox python3-dev
