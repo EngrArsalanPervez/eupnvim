@@ -1,8 +1,9 @@
 # eupnvim
-Reference
-**https://www.linode.com/docs/guides/how-to-install-neovim-and-plugins-with-vim-plug/**
 
 ##### NeoVim Installation
+
+Reference: **https://www.linode.com/docs/guides/how-to-install-neovim-and-plugins-with-vim-plug/**
+
 ```
 apt update
 
