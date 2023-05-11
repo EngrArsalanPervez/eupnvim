@@ -60,7 +60,6 @@ Plug 'tpope/vim-surround'
 Plug 'zxqfl/tabnine-vim'
 Plug 'scrooloose/syntastic'
 Plug 'majutsushi/tagbar'
-Plug 'valloric/youcompleteme'
 Plug 'kien/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'godlygeek/tabular'
@@ -93,8 +92,6 @@ colorscheme monokai
 " apt install universal-ctags
 " apt install build-essential cmake vim-nox python3-dev
 " apt install mono-complete golang nodejs default-jdk npm
-" sudo apt install vim-youcompleteme
-" vim-addon-manager install youcompleteme
 " autocmd FileType apache setlocal commentstring=#\ %s
 " pip3 install pynvim
 "
