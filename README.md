@@ -4,7 +4,7 @@
 cd ~
 git clone https://github.com/EngrUsmanPervez/eupnvim.git
 cd eupnvim
-chmod 777 install.sh
+chmod 777 *.sh
 ./install.sh
 ```
 ##### Install Plugins
