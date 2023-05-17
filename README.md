@@ -6,6 +6,7 @@ git clone https://github.com/EngrUsmanPervez/eupnvim.git
 cd eupnvim
 chmod 777 *.sh
 ./install.sh
+./fonts.sh
 ```
 ##### Install Plugins
 ```
