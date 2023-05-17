@@ -20,12 +20,3 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 cd ~/eupnvim/
 cp -R .ctags.d ~/
 cp init.vim ~/config/nvim/init.vim
-
-# Fonts
-cd ~
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hermit.zip
-unzip Hermit.zip
-cp Hurmit*.otf /usr/share/fonts/
-cp Hurmit*.otf /usr/local/share/fonts/
-
-#CommicShanns
