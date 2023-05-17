@@ -16,3 +16,9 @@ cp Comic*.otf /usr/share/fonts/
 cp Comic*.otf /usr/local/share/fonts/**
 # Change fonts from Terminal->Edit->Preferences->Font
 ```
+##### Install Plugins
+```
+nvim
+:PlugInstall
+:PlugUpdate
+```
