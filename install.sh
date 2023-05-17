@@ -18,3 +18,13 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 cd ~/eupnvim/
 cp -R .ctags.d ~/
 cp init.vim ~/.config/nvim/init.vim
+
+# Fonts
+cd ~
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.1/ComicShannsMono.zip
+unzip ComicShannsMono.zip
+cp Comic*.otf /usr/share/fonts/
+cp Comic*.otf /usr/local/share/fonts/
+Green='\033[0;32m'
+NC='\033[0m' # No Color
+echo -e "${Green}Change fonts from Terminal->Edit->Preferences->Font${NC}"
