@@ -1,2 +1,2 @@
 # eupnvim
-git clone 
+git clone https://github.com/EngrUsmanPervez/eupnvim.git
