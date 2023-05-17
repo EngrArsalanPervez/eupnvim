@@ -9,8 +9,7 @@ wget --quiet https://github.com/neovim/neovim/releases/download/nightly/nvim.app
 chmod +x nvim
 sudo chown root:root nvim
 sudo mv nvim /usr/bin
-cd ~
-mkdir -p .config/nvim
+mkdir -p ~/.config/nvim
 
 # Vim-Plug
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -18,4 +17,4 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 # Plugins
 cd ~/eupnvim/
 cp -R .ctags.d ~/
-cp init.vim ~/config/nvim/init.vim
+cp init.vim ~/.config/nvim/init.vim
