@@ -28,7 +28,9 @@ cp Comic*.otf /usr/local/share/fonts/
 
 Green='\033[0;32m'
 NC='\033[0m' # No Color
-echo -e "${Green}Change fonts from Terminal->Edit->Preferences->Font"
+echo -e "${Green}Final Steps"
+echo -e "==========="
+echo -e "Change fonts from Terminal->Edit->Preferences->Font"
 echo -e "nvim"
 echo -e ":autocmd FileType apache setlocal commentstring=#\ %s"
 echo -e ":PlugInstall"
