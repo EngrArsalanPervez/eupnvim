@@ -37,7 +37,7 @@ nnoremap <C-b> :NERDTreeToggle<CR>
 nnoremap <C-f> :Rg<CR>
 nnoremap <C-q> :q<CR>
 nnoremap <C-s> :w<CR>
-nnoremap <C-c> :e ~/.vimrc<CR>
+nnoremap <C-c> :e ~/.config/nvim/init.vim<CR>
 nnoremap <C-e> :Files<CR>
 nnoremap <C-x> :terminal<CR>
 nnoremap <C-t> :tabnew<CR>
