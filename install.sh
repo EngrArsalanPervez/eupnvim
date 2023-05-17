@@ -25,6 +25,12 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.1/ComicShann
 unzip ComicShannsMono.zip
 cp Comic*.otf /usr/share/fonts/
 cp Comic*.otf /usr/local/share/fonts/
+
 Green='\033[0;32m'
 NC='\033[0m' # No Color
-echo -e "${Green}Change fonts from Terminal->Edit->Preferences->Font${NC}"
+echo -e "${Green}Change fonts from Terminal->Edit->Preferences->Font"
+echo -e "nvim"
+echo -e ":autocmd FileType apache setlocal commentstring=#\ %s"
+echo -e ":PlugInstall"
+echo -e ":PlugUpdate"
+echo -e "${NC}"
