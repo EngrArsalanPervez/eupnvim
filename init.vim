@@ -85,3 +85,4 @@ set cursorline
 " set cursorcolumn
 syntax enable
 colorscheme monokai
+autocmd FileType apache setlocal commentstring=#\ %s
