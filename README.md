@@ -19,6 +19,7 @@ cp Comic*.otf /usr/local/share/fonts/**
 ##### Install Plugins
 ```
 nvim
+:autocmd FileType apache setlocal commentstring=#\ %s
 :PlugInstall
 :PlugUpdate
 ```
