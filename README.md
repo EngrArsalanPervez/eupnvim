@@ -7,3 +7,7 @@ cd eupnvim
 chmod 777 *.sh
 ./install.sh
 ```
+##### DotFiles
+```
+git clone https://github.com/jimthedj65/dotfiles.git
+```
