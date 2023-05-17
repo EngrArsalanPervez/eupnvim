@@ -2,7 +2,6 @@
 apt update
 apt install vim-gtk xclip ripgrep curl universal-ctags build-essential cmake vim-nox python3-dev fuse libfuse2 git python3-pip ack-grep -y
 apt install mono-complete golang nodejs default-jdk npm -y
-autocmd FileType apache setlocal commentstring=#\ %s
 pip3 install pynvim
 
 # NeoVim Nightly Version
