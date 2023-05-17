@@ -1,4 +1,4 @@
-" ~/nvim/init.vim
+" ~/.config/nvim/init.vim
 "
 "
 " Find and Replace                :%s/foo/bar/g"
@@ -57,7 +57,8 @@ Plug 'msanders/snipmate.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
-Plug 'zxqfl/tabnine-vim'
+" Plug 'zxqfl/tabnine-vim'
+" Plug 'valloric/youcompleteme'
 Plug 'scrooloose/syntastic'
 Plug 'majutsushi/tagbar'
 Plug 'kien/ctrlp.vim'
@@ -81,42 +82,6 @@ set list lcs=tab:\|\
 set iskeyword+=.
 set clipboard=unnamedplus
 set cursorline
-set cursorcolumn
+" set cursorcolumn
 syntax enable
 colorscheme monokai
-
-" Pre Requisite
-" apt install vim-gtk
-" apt install xclip
-" apt-get install ripgrep curl
-" apt install universal-ctags
-" apt install build-essential cmake vim-nox python3-dev
-" apt install mono-complete golang nodejs default-jdk npm
-" autocmd FileType apache setlocal commentstring=#\ %s
-" pip3 install pynvim
-"
-" Install NerdFont
-"   wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hermit.zip
-"   unzip Hermit.zip
-"   cp Hurmit*.otf /usr/share/fonts/
-"   cp Hurmit*.otf /usr/local/share/fonts/
-"
-" vim-plug
-" cd ~/.vim/autoload/
-" curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-" curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-"
-" cd Project/
-" ctags -R
-" vim
-" ctrl+]
-" ctrl+o ctrl+i
-"
-" ctags css
-" cd ~/
-" mkdir .ctags.d/
-" cd .ctags.d/
-" nano eup.ctags
-"   --regex-css=/^[ \t]*(([A-Za-z0-9_-]+[ \t\n,]+)+)\{/\1/t,tag,tags/
-"   --regex-css=/^[ \t]*#([A-Za-z0-9_-]+)/#\1/i,id,ids/
-"   --regex-css=/^[ \t]*\.([A-Za-z0-9_-]+)/\1/c,class,classes/
