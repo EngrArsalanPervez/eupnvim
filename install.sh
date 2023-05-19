@@ -33,6 +33,7 @@ Green='\033[0;32m'
 NC='\033[0m' # No Color
 echo -e "${Green}Final Steps"
 echo -e "==========="
+echo -e "Make sure fd is installed"
 echo -e "Change fonts from Terminal->Edit->Preferences->Font"
 echo -e "nvim"
 echo -e ":PlugInstall"
