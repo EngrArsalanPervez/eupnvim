@@ -1,6 +1,5 @@
 " ~/.config/nvim/init.vim
 "
-"
 " Find and Replace                :%s/foo/bar/g"
 " Find and Replace                :6,10s/foo/bar/"
 " Go to Line                      :40
@@ -81,8 +80,9 @@ set splitright
 set list lcs=tab:\|\ 
 set iskeyword+=.
 set clipboard=unnamedplus
-set cursorline
+" set cursorline
 " set cursorcolumn
 syntax enable
-colorscheme monokai
+" colorscheme monokai
+
 autocmd FileType apache setlocal commentstring=#\ %s
