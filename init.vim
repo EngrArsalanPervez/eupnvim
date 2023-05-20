@@ -24,6 +24,8 @@
 " Start/Middle/End of Screen      H M L
 " Jump to mathing bracket         %
 " Horizontal Split                Ctrl+w+v
+" Split Screen sizes Equel        Ctrl+w+=
+" Increase/Decrease Screen Size   :vertical resize [+-]20
 " View ctags                      :tag .<CTRL+D>
 " Delete to end of line           :d$
 " Delete to start of line         :d0
