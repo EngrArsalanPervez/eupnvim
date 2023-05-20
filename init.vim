@@ -73,6 +73,7 @@ Plug 'Yggdroot/indentLine'
 call plug#end()
 
 set tabstop=4
+set ignorecase
 set shiftwidth=4
 set expandtab
 set encoding=utf8
