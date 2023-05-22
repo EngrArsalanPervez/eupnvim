@@ -83,7 +83,7 @@ set splitright
 set list lcs=tab:\|\ 
 set iskeyword+=.
 set clipboard=unnamedplus
-" set cursorline
+set cursorline
 " set cursorcolumn
 syntax enable
 " colorscheme monokai
