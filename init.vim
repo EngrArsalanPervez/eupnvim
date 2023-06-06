@@ -44,6 +44,7 @@ nnoremap <C-x> :terminal<CR>
 nnoremap <C-t> :tabnew<CR>
 nnoremap <C-PageDown> :tabnext<CR>
 nnoremap <C-PageUp> :tabprevious<CR>
+inoremap <S-Tab> <C-V><Tab>
 
 " Plugins Installations
 call plug#begin()
@@ -87,5 +88,5 @@ set cursorline
 " set cursorcolumn
 syntax enable
 " colorscheme monokai
-inoremap <S-Tab> <C-V><Tab>
+
 autocmd FileType apache setlocal commentstring=#\ %s
