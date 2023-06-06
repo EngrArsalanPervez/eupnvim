@@ -31,6 +31,10 @@
 " Delete to start of line         :d0
 " Auto Indent                     ==
 " Indent Forward/Backword         SHIFT+> SHIFT+<
+" Go to Start of doc              gg
+" Go to End of doc                G
+" Auto Indent whole file          gg=G
+
 
 
 " KeyMap
@@ -81,6 +85,7 @@ set encoding=utf8
 set backspace=indent,eol,start
 set number
 set splitright
+" set list
 set list lcs=tab:\|\ 
 set iskeyword+=.
 set clipboard=unnamedplus
