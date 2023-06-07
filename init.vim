@@ -34,6 +34,7 @@
 " Go to Start of doc              gg
 " Go to End of doc                G
 " Auto Indent whole file          gg=G
+" AutoCompletion                  CTRL+Space
 
 
 
