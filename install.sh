@@ -4,8 +4,9 @@ apt install vim-gtk xclip ripgrep curl universal-ctags build-essential cmake vim
 apt install mono-complete golang nodejs default-jdk npm -y
 pip3 install pynvim
 
-ln -s $(which fdfind) ~/.local/bin/fd
-export PATH="/usr/bin:$PATH"
+#ln -s $(which fdfind) ~/.local/bin/fd
+#export PATH="/usr/bin:$PATH"
+ln -s /usr/bin/fdfind /usr/bin/fd
 
 # NeoVim Nightly Version
 wget --quiet https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage --output-document nvim
@@ -38,5 +39,5 @@ echo -e "Change fonts from Terminal->Edit->Preferences->Font"
 echo -e "nvim"
 echo -e ":PlugInstall"
 echo -e ":PlugUpdate"
-echo -e "${NC}"
 echo -e "https://github.com/jimthedj65/dotfiles"
+echo -e "${NC}"
