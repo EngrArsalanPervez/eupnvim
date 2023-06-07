@@ -92,6 +92,6 @@ set clipboard=unnamedplus
 set cursorline
 " set cursorcolumn
 syntax enable
-" colorscheme monokai
+colorscheme monokai
 
 autocmd FileType apache setlocal commentstring=#\ %s
