@@ -1,6 +1,6 @@
 # Pre Requisite
 apt update
-apt install vim-gtk xclip ripgrep curl universal-ctags build-essential cmake vim-nox python3-dev fuse libfuse2 git python3-pip ack-grep fd-find indent -y
+apt install vim-gtk xclip ripgrep curl universal-ctags build-essential cmake vim-nox python3-dev fuse libfuse2 git python3-pip ack-grep fd-find clang-format -y
 apt install mono-complete golang nodejs default-jdk npm -y
 pip3 install pynvim
 
