@@ -35,6 +35,7 @@
 " Go to End of doc                G
 " Auto Indent whole file          gg=G
 " AutoCompletion                  CTRL+Space
+" Prettify                        CTRL+Pretty
 
 
 
@@ -97,5 +98,6 @@ nnoremap <C-x> :terminal<CR>
 nnoremap <C-t> :tabnew<CR>
 nnoremap <C-PageDown> :tabnext<CR>
 nnoremap <C-PageUp> :tabprevious<CR>
+nnoremap <C-p> :silent !indent %<CR>
 let g:SuperTabMappingForward = '<c-space>'
 let g:SuperTabMappingBackward = '<s-c-space>'
