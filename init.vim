@@ -35,7 +35,6 @@
 " Go to End of doc                G
 " Auto Indent whole file          gg=G
 " AutoCompletion                  CTRL+Space
-" Prettify                        CTRL+Pretty
 
 
 
@@ -83,7 +82,7 @@ set cursorline
 syntax enable
 colorscheme monokai
 autocmd FileType apache setlocal commentstring=#\ %s
-
+autocmd FileType c,cpp setlocal equalprg=clang-format
 
 
 " KeyMap
@@ -98,6 +97,5 @@ nnoremap <C-x> :terminal<CR>
 nnoremap <C-t> :tabnew<CR>
 nnoremap <C-PageDown> :tabnext<CR>
 nnoremap <C-PageUp> :tabprevious<CR>
-nnoremap <C-p> :silent !indent %<CR>
 let g:SuperTabMappingForward = '<c-space>'
 let g:SuperTabMappingBackward = '<s-c-space>'
