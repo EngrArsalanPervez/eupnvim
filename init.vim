@@ -88,5 +88,4 @@ nnoremap <C-x> :terminal<CR>
 nnoremap <C-t> :tabnew<CR>
 nnoremap <C-PageDown> :tabnext<CR>
 nnoremap <C-PageUp> :tabprevious<CR>
-nnoremap <C-p> :silent !indent %<CR>
 let g:SuperTabMappingForward = '<c-space>'
