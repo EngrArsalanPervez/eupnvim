@@ -70,7 +70,6 @@ set encoding=utf8
 set backspace=indent,eol,start
 set number
 set splitright
-set list lcs=tab:\|\
 set iskeyword+=.
 set clipboard=unnamedplus
 set cursorline
