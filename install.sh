@@ -1,6 +1,6 @@
 # Pre Requisite
 apt update
-apt install xclip ripgrep curl universal-ctags build-essential cmake vim-nox python3-dev fuse libfuse2 git python3-pip ack fd-find -y
+apt install xclip ripgrep curl universal-ctags build-essential cmake vim-nox python3-dev fuse libfuse2 git python3-pip ack fd-find vim-gtk3 -y
 apt install mono-complete golang nodejs default-jdk npm -y
 apt install python3-pynvim
 
