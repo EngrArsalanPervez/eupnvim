@@ -72,6 +72,7 @@ set number
 set splitright
 set iskeyword+=.
 set clipboard=unnamedplus
+set mouse=nv
 set cursorline
 syntax enable
 colorscheme monokai
