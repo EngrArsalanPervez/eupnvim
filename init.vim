@@ -15,7 +15,7 @@
 " Delete 5 Lines                  :5dd
 " Copy/Yank Line                  yy
 " Copy/Yank Word/Tokken           yw yW
-" Paste Before/After              p P
+" Paste Before/After              P p
 " Undo Redo                       u ctrl+r
 " Correct Inner First  (          ci(
 " Correct Inner Second (          2ci(
@@ -37,8 +37,6 @@
 " AutoCompletion                  CTRL+Space
 
 
-
-" Plugins Installations
 call plug#begin()
 Plug 'preservim/NERDTree'
 Plug 'bling/vim-airline'
@@ -51,8 +49,6 @@ Plug 'msanders/snipmate.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
-" Plug 'zxqfl/tabnine-vim'
-" Plug 'valloric/youcompleteme'
 Plug 'scrooloose/syntastic'
 Plug 'majutsushi/tagbar'
 Plug 'kien/ctrlp.vim'
@@ -66,26 +62,21 @@ Plug 'Yggdroot/indentLine'
 call plug#end()
 
 set tabstop=4
-set ignorecase
 set shiftwidth=4
+set softtabstop=4
 set expandtab
+set ignorecase
 set encoding=utf8
 set backspace=indent,eol,start
 set number
 set splitright
-" set list
-set list lcs=tab:\|\ 
+set list lcs=tab:\|\
 set iskeyword+=.
 set clipboard=unnamedplus
 set cursorline
-" set cursorcolumn
 syntax enable
 colorscheme monokai
-autocmd FileType apache setlocal commentstring=#\ %s
-autocmd FileType c,cpp setlocal equalprg=clang-format
 
-
-" KeyMap
 nnoremap <C-b> :NERDTreeToggle<CR>
 nnoremap <C-f> :Rg<CR>
 nnoremap <C-q> :q<CR>
@@ -97,5 +88,5 @@ nnoremap <C-x> :terminal<CR>
 nnoremap <C-t> :tabnew<CR>
 nnoremap <C-PageDown> :tabnext<CR>
 nnoremap <C-PageUp> :tabprevious<CR>
+nnoremap <C-p> :silent !indent %<CR>
 let g:SuperTabMappingForward = '<c-space>'
-let g:SuperTabMappingBackward = '<s-c-space>'
