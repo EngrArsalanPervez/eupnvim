@@ -61,10 +61,10 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'Yggdroot/indentLine'
 call plug#end()
 
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-set expandtab
+" set tabstop=4
+" set shiftwidth=4
+" set softtabstop=4
+" set expandtab
 set ignorecase
 set encoding=utf8
 set backspace=indent,eol,start
