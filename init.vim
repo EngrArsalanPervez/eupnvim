@@ -92,9 +92,11 @@ nnoremap <C-x> :terminal<CR>
 nnoremap <C-t> :tabnew<CR>
 nnoremap <C-PageDown> :tabnext<CR>
 nnoremap <C-PageUp> :tabprevious<CR>
-nnoremap <S-Up> :m-2<CR>
-nnoremap <S-Down> :m+<CR>
-inoremap <S-Up> <Esc>:m-2<CR>
-inoremap <S-Down> <Esc>:m+<CR>
+nnoremap <S-Down> :m .+1<CR>==
+nnoremap <S-Up> :m .-2<CR>==
+inoremap <S-Down> <Esc>:m .+1<CR>==gi
+inoremap <S-Up> <Esc>:m .-2<CR>==gi
+vnoremap <S-Down> :m '>+1<CR>gv=gv
+vnoremap <S-Up> :m '<-2<CR>gv=gv
 let g:SuperTabMappingForward = '<c-space>'
 
