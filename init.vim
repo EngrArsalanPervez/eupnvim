@@ -68,6 +68,7 @@ call plug#end()
 " set shiftwidth=4
 " set softtabstop=4
 " set expandtab
+set list lcs=tab:\|\
 set ignorecase
 set encoding=utf8
 set backspace=indent,eol,start
