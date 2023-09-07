@@ -35,6 +35,8 @@
 " Go to End of doc                G
 " Auto Indent whole file          gg=G
 " AutoCompletion                  CTRL+Space
+" MultiCurser Select Words        CTRL+n
+" MultiCurser Edit                c I A              
 
 
 call plug#begin()
@@ -59,6 +61,7 @@ Plug 'frazrepo/vim-rainbow'
 Plug 'universal-ctags/ctags'
 Plug 'ryanoasis/vim-devicons'
 Plug 'Yggdroot/indentLine'
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 " set tabstop=4
