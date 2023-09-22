@@ -15,12 +15,13 @@ chmod +x nvim
 sudo chown root:root nvim
 sudo mv nvim /usr/bin
 mkdir -p ~/.config/nvim
+sudo mkdir -p /root/.config/nvim
 
 # Vim-Plug
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # Plugins
-cd ~/eupnvim/
+#cd ~/eupnvim/
 cp -R .ctags.d ~/
 sudo cp -R .ctags.d /root/
 cp init.vim ~/.config/nvim/init.vim
