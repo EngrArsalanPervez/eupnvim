@@ -22,7 +22,9 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.g
 # Plugins
 cd ~/eupnvim/
 cp -R .ctags.d ~/
+sudo cp -R .ctags.d /root/
 cp init.vim ~/.config/nvim/init.vim
+sudo cp init.vim /root/.config/nvim/init.vim
 
 # Fonts
 cd ~
