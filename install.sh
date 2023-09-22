@@ -1,15 +1,16 @@
 # Pre Requisite
 sudo apt update
 sudo apt install xclip ripgrep curl universal-ctags build-essential cmake vim-nox python3-dev fuse libfuse2 git python3-pip ack fd-find vim-gtk3 -y
-sudo apt install mono-complete golang nodejs default-jdk npm -y
 sudo apt install python3-pynvim
+# YouCompleteMe
+#sudo apt install mono-complete golang nodejs default-jdk npm -y
 
 #ln -s $(which fdfind) ~/.local/bin/fd
 #export PATH="/usr/bin:$PATH"
 sudo ln -s /usr/bin/fdfind /usr/bin/fd
 
 # NeoVim Nightly Version
-wget --quiet https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage --output-document nvim
+wget https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage --output-document nvim
 chmod +x nvim
 sudo chown root:root nvim
 sudo mv nvim /usr/bin
