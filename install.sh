@@ -28,8 +28,10 @@ cp init.vim ~/.config/nvim/init.vim
 cd ~
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.1/ComicShannsMono.zip
 unzip ComicShannsMono.zip
-cp Comic*.otf /usr/share/fonts/
-cp Comic*.otf /usr/local/share/fonts/
+sudo cp Comic*.otf /usr/share/fonts/
+sudo cp Comic*.otf /usr/local/share/fonts/
+rm *.otf
+rm ComicShannsMono.zip
 
 Green='\033[0;32m'
 NC='\033[0m' # No Color
