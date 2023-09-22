@@ -1,3 +1,7 @@
+# UnInstall
+sudo -s
+find / -iname "nvim"
+
 # Pre Requisite
 sudo apt update
 sudo apt install xclip ripgrep curl universal-ctags build-essential cmake vim-nox python3-dev fuse libfuse2 git python3-pip ack fd-find vim-gtk3 -y
