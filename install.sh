@@ -1,6 +1,5 @@
 # UnInstall
-sudo -s
-find / -iname "nvim"
+# PurgeNvim.sh
 
 # Pre Requisite
 sudo apt update
