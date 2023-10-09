@@ -41,6 +41,10 @@ sudo cp Comic*.otf /usr/local/share/fonts/
 rm *.otf
 rm ComicShannsMono.zip
 
+sudo apt update
+sudo apt install nautilus ubuntu-desktop sshfs
+sudo apt upgrade
+
 Green='\033[0;32m'
 NC='\033[0m' # No Color
 echo -e "${Green}Final Steps"
