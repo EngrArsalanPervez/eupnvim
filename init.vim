@@ -78,6 +78,7 @@ set iskeyword+=.
 set clipboard=unnamedplus
 set mouse=nv
 set cursorline
+set wrap!
 syntax enable
 colorscheme monokai
 
