@@ -64,10 +64,10 @@ Plug 'Yggdroot/indentLine'
 Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
-" set tabstop=4
-" set shiftwidth=4
-" set softtabstop=4
-" set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 set list lcs=tab:\|\ " Space necessary at the end of line
 set ignorecase
 set encoding=utf8
