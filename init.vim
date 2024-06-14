@@ -101,3 +101,9 @@ vnoremap <S-Down> :m '>+1<CR>gv=gv
 vnoremap <S-Up> :m '<-2<CR>gv=gv
 let g:SuperTabMappingForward = '<c-space>'
 
+" Define an autocommand group for formatting on save
+augroup FormatOnSave
+  autocmd!
+  " For .c and .h files, run clang-format on save if available
+  autocmd BufWritePost *.c,*.cpp,*.h if executable('clang-format') | silent! !clang-format -i % | endif
+augroup END
