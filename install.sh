@@ -3,7 +3,7 @@
 
 # Pre Requisite
 sudo apt update
-sudo apt install xclip ripgrep curl universal-ctags build-essential cmake python3-dev git python3-pip ack fd-find clang-format -y 
+sudo apt install xclip ripgrep curl universal-ctags git build-essential cmake python3-venv python3-dev python3-pip ack fd-find clang-format -y 
 sudo apt install python3-pynvim -y
 
 sudo ln -s /usr/bin/fdfind /usr/bin/fd
