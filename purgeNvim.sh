@@ -39,9 +39,10 @@ apt upgrade
 dpkg --configure -a
 apt install ubuntu-desktop
 reboot
-apt install vim
-apt install neovim
-apt remove neovim
+
+#apt install vim
+#apt install neovim
+#apt remove neovim
 
 
 # install nvim
