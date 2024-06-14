@@ -105,5 +105,5 @@ let g:SuperTabMappingForward = '<c-space>'
 augroup FormatOnSave
   autocmd!
   " For .c and .h files, run clang-format on save if available
-  autocmd BufWritePost *.c,*.cpp,*.h if executable('clang-format') | silent! !clang-format -i % | endif
+  autocmd BufWritePost *.c,*.cpp,*.h if executable('clang-format') | silent! !clang-format --style=Mozilla -i % | endif
 augroup END
