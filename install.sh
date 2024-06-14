@@ -3,7 +3,7 @@
 
 # Pre Requisite
 sudo apt update
-sudo apt install xclip ripgrep curl universal-ctags build-essential cmake vim-nox python3-dev fuse libfuse2 git python3-pip ack fd-find vim-gtk3 clang-format -y 
+sudo apt install xclip ripgrep curl universal-ctags build-essential cmake python3-dev git python3-pip ack fd-find clang-format -y 
 sudo apt install python3-pynvim -y
 # YouCompleteMe
 #sudo apt install mono-complete golang nodejs default-jdk npm -y
@@ -26,8 +26,8 @@ sudo curl -fLo /root/.local/share/nvim/site/autoload/plug.vim --create-dirs http
 
 # Plugins
 #cd ~/eupnvim/
-cp -R .ctags.d ~/
-sudo cp -R .ctags.d /root/
+#cp -R .ctags.d ~/
+#sudo cp -R .ctags.d /root/
 cp init.vim ~/.config/nvim/init.vim
 sudo cp init.vim /root/.config/nvim/init.vim
 
@@ -40,9 +40,9 @@ sudo cp Comic*.otf /usr/local/share/fonts/
 rm *.otf
 rm ComicShannsMono.zip
 
-sudo apt -y update
-sudo apt -y install nautilus ubuntu-desktop sshfs
-sudo apt -y upgrade
+#sudo apt -y update
+#sudo apt -y install nautilus ubuntu-desktop sshfs
+#sudo apt -y upgrade
 
 Green='\033[0;32m'
 NC='\033[0m' # No Color
