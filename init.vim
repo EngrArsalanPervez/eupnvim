@@ -36,7 +36,8 @@
 " Auto Indent whole file          gg=G
 " AutoCompletion                  CTRL+Space
 " MultiCurser Select Words        CTRL+n
-" MultiCurser Edit                c I A              
+" MultiCurser Edit                c I A
+" Refresh NerdTree                R
 
 
 call plug#begin()
