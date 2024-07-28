@@ -38,6 +38,7 @@
 " MultiCurser Select Words        CTRL+n
 " MultiCurser Edit                c I A
 " Refresh NerdTree                R
+" Jump to Start of Function       [[
 
 
 call plug#begin()
