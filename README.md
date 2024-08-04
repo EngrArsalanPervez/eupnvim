@@ -11,3 +11,4 @@ chmod 777 *.sh
 ```
 git clone https://github.com/jimthedj65/dotfiles.git
 ```
+Project Implemented on [Academic Master](https://academic-master.com/)
