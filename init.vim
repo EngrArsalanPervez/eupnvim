@@ -39,6 +39,8 @@
 " MultiCurser Edit                c I A
 " Refresh NerdTree                R
 " Jump to Start of Function       [[
+" Correct and Paste/Replace       cc Esc "0p
+
 
 
 call plug#begin()
