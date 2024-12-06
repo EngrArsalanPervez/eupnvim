@@ -35,6 +35,9 @@ sudo cp Comic*.otf /usr/local/share/fonts/
 rm *.otf
 rm ComicShannsMono.zip
 
+# Repair Nautilus
+sudo apt install nautilus
+
 Green='\033[0;32m'
 NC='\033[0m' # No Color
 echo -e "${Green}Final Steps"
