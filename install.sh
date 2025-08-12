@@ -10,7 +10,7 @@ sudo ln -s /usr/bin/fdfind /usr/bin/fd
 fd
 
 # NeoVim Nightly Version
-wget https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage --output-document nvim
+wget https://github.com/neovim/neovim/releases/download/v0.11.3/nvim-linux-x86_64.appimage --output-document nvim
 chmod +x nvim
 sudo chown root:root nvim
 sudo mv nvim /usr/bin
