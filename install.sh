@@ -9,6 +9,13 @@ sudo apt install python3-pynvim -y
 sudo ln -s /usr/bin/fdfind /usr/bin/fd
 fd
 
+# C Programming
+sudo apt install clangd
+sudo apt install clang-format clang-tidy
+sudo apt install gdb lldb
+sudo apt install build-essential cmake meson ninja-build pkg-config gdb lldb valgrind bear ccache
+sudo apt install doxygen graphviz clang-tools
+
 # NeoVim Nightly Version
 wget https://github.com/neovim/neovim/releases/download/v0.11.3/nvim-linux-x86_64.appimage --output-document nvim
 chmod +x nvim
