@@ -53,7 +53,6 @@ rm -rf ~/.config/nvim/.git
 nvim
 
 # x
-```bash
 # Enabled Plugins: (18)
 coding.blink
 coding.mini-surround
@@ -86,4 +85,3 @@ lang.python
 lang.sql
 lang.typescript
 lang.yaml
-```
