@@ -9,7 +9,6 @@ sudo apt -y install xclip ripgrep lazygit fzf ripgrep fd-find luarocks imagemagi
 sudo npm install -g node tree-sitter-cli @mermaid-js/mermaid-cli neovim
 sudo apt install python3-pynvim
 
-
 sudo ln -s /usr/bin/fdfind /usr/bin/fd
 fd
 
