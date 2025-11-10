@@ -82,5 +82,5 @@ lang.json
 lang.markdown
 lang.python
 lang.sql
-lang.typescript
+lang.toml
 lang.yaml
