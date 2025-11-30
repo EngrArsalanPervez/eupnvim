@@ -1,6 +1,6 @@
 # Pre Requisite
 sudo apt update
-sudo apt -y install curl universal-ctags git build-essential cmake python3-venv python3-dev python3-pip ack -y 
+sudo apt -y install curl universal-ctags git build-essential cmake python3-venv python3-dev python3-pip python3-full ack -y 
 sudo apt -y install python3-pynvim -y
 sudo apt -y install npm nodejs
 
