@@ -1,19 +1,22 @@
 # Pre Requisite
 sudo apt update
-sudo apt -y install curl universal-ctags git build-essential cmake python3-venv python3-dev python3-pip python3-full ack -y 
-sudo apt -y install python3-pynvim -y
-sudo apt -y install npm nodejs
+
+# C Programming
+sudo apt -y install curl universal-ctags git build-essential cmake python3-venv python3-dev python3-pip python3-full ack
+sudo apt -y install libssl-dev zlib1g-dev libelf-dev libpcap-dev libnuma-dev libevent-dev libbsd-dev
+sudo apt install -y manpages-dev manpages-posix-dev
+sudo apt install -y libncurses-dev flex bison dwarves bc
+sudo apt install -y clangd clang-format clang-tidy gdb lldb cmake meson ninja-build pkg-config gdb lldb valgrind bear ccache doxygen graphviz clang-tools cppcheck
+
 
 # Lazyvim Pre-Requisite
+sudo apt -y install python3-pynvim -y
+sudo apt -y install npm nodejs
 sudo apt -y install xclip ripgrep lazygit fzf ripgrep fd-find luarocks imagemagick texlive-latex-base
 sudo npm install -g node tree-sitter-cli @mermaid-js/mermaid-cli neovim
 sudo apt install python3-pynvim
-
 sudo ln -s /usr/bin/fdfind /usr/bin/fd
 fd
-
-# C Programming
-sudo apt install -y clangd clang-format clang-tidy gdb lldb cmake meson ninja-build pkg-config gdb lldb valgrind bear ccache doxygen graphviz clang-tools
 
 # Go
 cd Downloads
