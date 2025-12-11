@@ -20,7 +20,7 @@ fd
 
 # Go
 cd Downloads
-wget https://go.dev/dl/go1.25.4.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.25.5.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go && tar -C /usr/local -xzf go1.25.4.linux-amd64.tar.gz
 # with and with sudo
 mkdir -p ~/go/{bin,pkg,src}
