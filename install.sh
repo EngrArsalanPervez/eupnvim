@@ -6,7 +6,7 @@ sudo apt -y install curl universal-ctags git build-essential cmake python3-venv 
 sudo apt -y install libssl-dev zlib1g-dev libelf-dev libpcap-dev libnuma-dev libevent-dev libbsd-dev
 sudo apt install -y manpages-dev manpages-posix-dev
 sudo apt install -y libncurses-dev flex bison dwarves bc
-sudo apt install -y clangd clang-format clang-tidy gdb lldb cmake meson ninja-build pkg-config gdb lldb valgrind bear ccache doxygen graphviz clang-tools cppcheck
+sudo apt install -y clang clangd clang-format clang-tidy gdb lldb cmake meson ninja-build pkg-config gdb lldb valgrind bear ccache doxygen graphviz clang-tools cppcheck
 
 
 # Lazyvim Pre-Requisite
