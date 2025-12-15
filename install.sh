@@ -8,6 +8,9 @@ sudo apt install -y manpages-dev manpages-posix-dev
 sudo apt install -y libncurses-dev flex bison dwarves bc
 sudo apt install -y clang clangd clang-format clang-tidy gdb lldb cmake meson ninja-build pkg-config gdb lldb valgrind bear ccache doxygen graphviz clang-tools cppcheck
 
+# DPDK
+sudo apt -y install -y pkg-config build-essential meson ninja-build python3-pyelftools libnuma-dev
+sudo apt -y install libfdt-dev libbpf-dev libxdp-dev libarchive-dev libjansson-dev
 
 # Lazyvim Pre-Requisite
 sudo apt -y install python3-pynvim -y
